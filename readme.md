@@ -9,6 +9,7 @@ Debug = True # in django settings.py file
 ```
 create virtualenv
 install requirements.txt
+npm install
 ```
 
 ```bash
