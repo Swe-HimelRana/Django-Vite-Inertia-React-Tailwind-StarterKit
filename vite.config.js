@@ -20,6 +20,9 @@ module.exports = {
  },
  resolve: {
    extensions: ['.js', '.json'],
+   alias: {
+    '@': resolve('./src')
+  }
  },
  build: {
    outDir: resolve('./src/dist'),
