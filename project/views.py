@@ -8,8 +8,6 @@ def index(request):
 
 @inertia('contact')
 def contact(request):
-     import time
-     time.sleep(1)
      return render(request, 'contact', props={
     'email' : "contact@himelrana.com",
     "portfolio": "https://himelrana.com",
